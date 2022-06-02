@@ -1,0 +1,20 @@
+{
+  "name": "moy-klass-test-server",
+  "version": "1.0.0",
+  "description": "Moy klass test server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "moment": "^2.29.3",
+    "pg": "^8.7.3",
+    "sequelize": "^6.20.1"
+  }
+}
